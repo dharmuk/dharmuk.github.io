@@ -6,14 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: I am Rajen !
-name: Rajen jangam
+title: Simply Value Investing
+name: MoatFox
 email: dharmuk@gmail.com
 location: Toronto, Canada
-#company: 
-#company_url: http://www.gfi.fr/en/
-github_url: https://github.com/dharmuk
-description: This is personnel website of DONG Chuan
+company_url: http://www.gfi.fr/en/
+#github_url: https://github.com/dharmuk
+description: Thoughts of a Value Invester
 favicon: favicon.png # Image must be in assets/images
 
 url: http://dharmuk.github.io # the base hostname & protocol for your site
