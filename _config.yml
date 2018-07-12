@@ -6,17 +6,22 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: I am Chuan !
-name: DONGChuan
-email: dongchuan55@gmail.com
-location: Nice, France
-company: Gfi Informatique
-company_url: http://www.gfi.fr/en/
-github_url: https://github.com/DONGChuan
-description: This is personnel website of DONG Chuan
+title: Yummy Theme # ex. I m Chuan
+name: Your Name # ex. DONGChuan
+email: my_email_address@lalala.com
+location: My location # ex. Nice, France
+company: MyCompany
+company_url: my_company_website
+github_url: my_github_url # ex. https://github.com/DONGChuan
+github_username: # ex. DONGChuan
+description: description_of_your_web_site
 favicon: favicon.png # Image must be in assets/images
+repository: github_username/github_username.github.io # ex. DONGChuan/DONGChuan.github.io
 
-url: http://dongchuan.github.io # the base hostname & protocol for your site
+# The base hostname & protocol for your site
+# For local test, please use http://localhost:4000
+# For production, use your github page url. ex. http://dongchuan.github.io
+url: http://localhost:4000
 
 ## Gem
 gems:
@@ -43,13 +48,13 @@ kramdown:
   enable_coderay: true
 
 # Disque
-disque: httpdongchuangithubio.disqus.com
+disque: my_disque_settings # ex. httpdongchuangithubio.disqus.com
 
 # Pagination
 paginate: 10
 paginate_path: 'page:num'
 
-# Navigation
+# Navigation. If you do not like these modules, just remove them :D
 navs:
   -
     href: /
@@ -78,7 +83,7 @@ side_bar_repo_limit: 5 # Number of repos to show
 analytics :
   provider : google
   google :
-      tracking_id : 'UA-72165600-1'
+      tracking_id : 'tracking_id'  # ex. UA-72165600-X
 
 
 # For about.html. Fell free to create your own!
