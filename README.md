@@ -1,2 +1,1 @@
-# dharmuk.github.io
-Jekyll test
+It bases on the my jekyll theme [Yummy-Jekyll](https://github.com/DONGChuan/Yummy-Jekyll)
